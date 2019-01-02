@@ -1,0 +1,95 @@
+
+/* ======================================================
+	                      packages
+	                         start
+	=========================================================*/
+	.background{
+		background:url(plans-background.jpg);
+		background-size: cover;
+		height:800px;
+		width: 100%;
+		position: fixed;
+		z-index: -1;
+	}
+
+	main{
+
+		padding-top:60px;
+	}
+
+	.package{
+		border: 3px solid #0e4f1f;
+		height: 35vh;
+		width: 65%;
+		margin-top:20px;
+		border-left: none;
+		padding:0 20px;
+		position: relative;
+	}
+
+
+.package:hover{
+	box-shadow: 2px 2px 4px gray;
+	border: 3px solid orange; 
+	border-left: none;
+}
+.package a {
+	color: inherit;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.package-title{
+     
+     color: black;
+
+}
+
+.package-subtitle{
+
+	color: #4d4d4d;
+}
+
+.package__badge{
+	font-size: 16px;
+	color: white;
+	background:#ff4545;
+	padding: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin:20px;
+	border-radius: 3px;
+	
+}
+
+
+.package-info {
+	color: #113611;
+	padding: 12px 24px;
+	border: 1px solid #113611;
+	background: white;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#plus{background:#bca;}
+
+#free{
+	background :#bcb;
+	border-left:3px solid #0e4f1f;
+	border-right:none;
+    float: right;
+    text-align: right;
+	}
+
+#free:hover,
+#free:active{
+	border-left-color:orange;
+	box-shadow: -2px 2px 4px gray;
+}	
+#premium {background:#124421;}
+#premium .package-title{color: white;}

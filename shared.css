@@ -1,0 +1,187 @@
+*{box-sizing: border-box;}	
+
+html body {
+	font-family:sans-serif;
+	margin:0;
+	padding:0;
+	height:100%;
+	background:#F2EECB;
+}
+
+
+
+	/* ======================================================
+	                    header section  
+	                         Start             
+	=========================================================*/
+
+
+
+
+
+
+
+
+.main-header{
+
+    background:#465745;
+	height:60px;
+	width:100%;
+	padding:20px 0px 0px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:9;
+}
+
+#header-logo a{
+
+    vertical-align: middle;
+    font-weight: bold;
+    font-size:10px;
+	color:gold; #154521;
+	padding-left: 5px;
+	text-decoration: none;
+	margin: 0 5px;}
+
+#main-header__brand-logo{
+	height: 50px;
+	width: 60px;
+}
+
+.main-header > div{
+	
+	display: inline-block;
+}
+
+.main-nav{ display: inline-block;
+	    	vertical-align: middle;
+
+          text-align: right;
+          width: calc(100% - 85px);
+ }
+
+.main-nav__items{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.main-nav__item{	display: inline-block;
+}
+
+.main-nav__item a {
+    	vertical-align: middle;
+	color:silver ;
+	text-decoration: none;
+	margin: 10px;
+	padding: 13px;
+}
+
+
+
+
+
+	/* ======================================================
+	                    hover section                
+	=========================================================*/
+
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+	color: white;
+	border-bottom: 3px solid white;
+	border-radius: 5px;
+	padding: 13px ;
+	
+    
+}
+
+.main-nav__item--cta a {
+color:silver;	
+background:gray;
+border-radius: 50px; 
+
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active
+{
+color: red;	
+background:white;
+border-radius: 50px;
+padding: 8px;
+border:none;
+
+}
+
+
+
+
+
+
+
+/* ======================================================
+	                    header section  
+	                         END             
+	=========================================================*/
+
+
+
+
+
+/* ======================================================
+	                     Footer 
+	                     Start     
+	=========================================================*/
+	
+	
+.main-footer{
+	background: gray;
+	color: white;
+	padding: 32px;
+	margin-top: 48px;
+
+}	
+
+
+.main-footer__links{
+list-style: none;
+text-align: center;
+margin:0;
+padding:0;
+
+}
+
+
+.main-footer__link{
+	display: inline-block;
+	margin: 0 16px;
+
+
+}
+
+.main-footer__link a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+}
+
+.main-footer__link a:hover{
+	
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px .5px rgb(200,22,53);
+
+}
+.main-footer__link a:active{
+	color: tomato;
+	border: 1px solid tomato;
+	padding: 8px;
+	border-radius: 5px;
+
+}
+
+/* ======================================================
+	                    footer     
+	                     END
+	=========================================================*/

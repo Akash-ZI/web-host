@@ -1,0 +1,210 @@
+
+
+
+#main{
+
+	width: 100%;
+	
+}
+ 
+#main h1{margin:0;} 
+
+/* ======================================================
+	                    product plan
+	                    section  
+	                            
+	=========================================================*/
+
+
+#product-overview{
+	background-image:url(image/freedom.jpg);
+	background-size:cover;
+	background-position: left 10% top 20%;
+	height:528px;
+	width: 100%;
+    padding:10px;
+    margin:30px auto;
+    position: relative;
+
+   
+	
+		
+}
+
+.product-overview__title{
+	position: absolute;
+	bottom: 5%;
+	left: 3%;
+	color:whitesmoke;
+	bottom:30px;
+}
+
+.section-title {
+	color:#2ddf5c;
+	text-align: center;
+
+}
+
+.plan-list{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.plan{
+	background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    width:29%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.plan--highlighted{
+	background: #ffdb4d;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5) ;
+}
+
+.plan__annotation{
+	background: white;
+	padding:5px 5px 2px 5px;
+	color: gold; 
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5) ;
+    border-radius: 8px;
+
+}
+
+.plan__title{
+margin-top:10px !important;  
+color:#0e4f1f;
+}
+
+.plan__price{
+color: #858585;
+}
+
+.plan ul{
+	padding: 0;
+	margin: 0;
+	margin: 5px 0px;
+	list-style: none;}
+
+.plan li {
+	margin:8px 0;
+}	
+
+.button{
+	background: tomato;
+	color:white;
+	font:inherit;
+	font-weight: bold;
+	border: 1px solid white;
+	padding: 6px;
+	cursor: pointer;
+	border-radius: 5px;
+	
+}
+
+.button:hover{
+	background:white;
+	color:tomato;
+    
+} 
+.button:active{
+	border: 1px solid tomato;
+}
+
+.button:focus{outline: none;
+}
+
+/* ======================================================
+	                    key features
+	                    section  
+	                            
+	=========================================================*/
+
+#key-features{
+	background:#f84f4f;
+	margin-top: 80px;
+	padding: 16px;
+}
+
+#key-features .section-title{
+	color: white;
+	margin:32px;
+
+}
+
+.key-feature__list{
+	text-align: center;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.key-feature{
+	display:inline-block;
+	width: 30%;
+	vertical-align: top;
+
+}
+
+.key-feature__image{
+    margin:0 auto;
+	height:128px;
+	width:128px;
+	border-radius: 50%;
+	border: 2px solid #003300;
+	background: silver;
+}
+
+
+.key-feature__description{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+
+}
+
+
+
+	/* ======================================================
+	                    hover section                
+	=========================================================*/
+
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+	color: white;
+	border-bottom: 3px solid white;
+	border-radius: 5px;
+	padding: 8px ;
+	
+    
+}
+
+.main-nav__item--cta a {
+color:silver;	
+background:gray;
+border-radius: 50px; 
+
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active
+{
+color: red;	
+background:white;
+border-radius: 50px;
+padding: 8px;
+border:none;
+
+}
+
+
